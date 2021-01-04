@@ -21,22 +21,22 @@ const Navbar = () => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="/overview">Overview</NavLinks>
+              <NavLinks to="overview">Overview</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/data-access">Data Access</NavLinks>
+              <NavLinks to="data-access">Data Access</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/data">Data</NavLinks>
+              <NavLinks to="data">Data</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/known-issues">Known Issues</NavLinks>
+              <NavLinks to="known-issues">Known Issues</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/data-citation">Citation</NavLinks>
+              <NavLinks to="data-citation">Citation</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/updates">Updates</NavLinks>
+              <NavLinks to="updates">Updates</NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
