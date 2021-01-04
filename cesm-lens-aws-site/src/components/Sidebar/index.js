@@ -25,6 +25,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="data" onClick={toggle}>
             Data
           </SidebarLink>
+          <SidebarLink to="notebooks" onClick={toggle}>
+            Notebooks
+          </SidebarLink>
           <SidebarLink to="known-issues" onClick={toggle}>
             Known Issues
           </SidebarLink>

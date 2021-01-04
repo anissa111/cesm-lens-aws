@@ -31,6 +31,7 @@ const InfoSection = ({
   primary,
   dark,
   dark2,
+  toURL,
 }) => {
   return (
     <>
@@ -41,10 +42,12 @@ const InfoSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>
+                  <div dangerouslySetInnerHTML={{ __html: description }} />
+                </Subtitle>
                 <BtnWrap>
                   <Button
-                    to="http://www.cesm.ucar.edu/projects/community-projects/LENS/"
+                    to={toURL}
                     smooth={true}
                     duration={500}
                     spy={true}
