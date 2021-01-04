@@ -53,4 +53,4 @@ export const HeroH1 = styled.h1`
   }
 `
 
-document.querySelector('video').playbackRate = 0.65
+// document.querySelector('video').playbackRate = 0.65
