@@ -8,20 +8,32 @@ import {
   SidebarLink,
 } from './SidebarElements'
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen, toggle }) => {
   return (
-    <SidebarContainer>
-      <Icon>
+    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+      <Icon onClick={toggle}>
         <CloseIcon></CloseIcon>
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="overview">Overview</SidebarLink>
-          <SidebarLink to="data-access">Data Access</SidebarLink>
-          <SidebarLink to="data">Data</SidebarLink>
-          <SidebarLink to="known-issues">Known Issues</SidebarLink>
-          <SidebarLink to="data-citation">Data Citation</SidebarLink>
-          <SidebarLink to="updates">Updates</SidebarLink>
+          <SidebarLink to="overview" onClick={toggle}>
+            Overview
+          </SidebarLink>
+          <SidebarLink to="data-access" onClick={toggle}>
+            Data Access
+          </SidebarLink>
+          <SidebarLink to="data" onClick={toggle}>
+            Data
+          </SidebarLink>
+          <SidebarLink to="known-issues" onClick={toggle}>
+            Known Issues
+          </SidebarLink>
+          <SidebarLink to="data-citation" onClick={toggle}>
+            Data Citation
+          </SidebarLink>
+          <SidebarLink to="updates" onClick={toggle}>
+            Updates
+          </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>
