@@ -18,7 +18,7 @@ export const HomeObjOverview = {
   img: img1,
   alt: 'Overview',
   dark: false,
-  primary: true,
+  primary: false,
   darkText: true,
   toURL: 'http://www.cesm.ucar.edu/projects/community-projects/LENS/',
 }
@@ -69,15 +69,15 @@ export const HomeObjData = {
   topLine: '',
   headline: 'Data',
   description:
-    '<p>Zarr format: The LENS data on AWS are structured according to the <a href="https://zarr.readthedocs.io/en/stable/">Zarr</a> storage format. There are independent Zarr stores for each component, frequency, experiment, and variable. The naming convention is:<br/> <code>{component}/{frequency}/cesmLE-{experiment}-{variable}.zarr</code><br/> where:</p><ul><li>component = atm (atmosphere), lnd (land), ocn (ocean), ice_nh or ice_sh (ice, northern and southern hemispheres)</li><li>frequency = monthly, daily, or hourly6-startYear-endYear (6-hourly data are available for distinct periods)</li><li>experiment = 20C (20th century runs), RCP85 (RCP 8.5 runs), HIST (historical run), CTRL (fully-coupled control run), CTRL_AMIP (atmosphere-only control run), CTRL_SLAB (slab-ocean control run)</li><li>variable = one of the variable names listed in the tables below</li></ul>',
-  buttonLabel: 'Zarr Docs',
+    '<p>Zarr format: The LENS data on AWS are structured according to the <a href="https://zarr.readthedocs.io/en/stable/">Zarr</a> storage format. There are independent Zarr stores for each component, frequency, experiment, and variable. The naming convention is:<br/> <code>{component}/{frequency}/cesmLE-{experiment}-{variable}.zarr</code><br/> where:</p><ul><li>component = atm (atmosphere), lnd (land), ocn (ocean), ice_nh or ice_sh (ice, northern and southern hemispheres)</li><li>frequency = monthly, daily, or hourly6-startYear-endYear (6-hourly data are available for distinct periods)</li><li>experiment = 20C (20th century runs), RCP85 (RCP 8.5 runs), HIST (historical run), CTRL (fully-coupled control run), CTRL_AMIP (atmosphere-only control run), CTRL_SLAB (slab-ocean control run)</li><li>variable = one of the variable names listed in the tables below</li></ul><br><p>The table below shows the available Zarr stores, including the experiments, variables, time ranges, and 2D or 3D nature (3D means multiple atmosphere levels or ocean depths are present). See also <a href="https://ncar-cesm-lens.s3-us-west-2.amazonaws.com/catalogs/aws-cesm1-le.json">Collection Description</a> and <a href="https://ncar-cesm-lens.s3-us-west-2.amazonaws.com/catalogs/aws-cesm1-le.csv">Catalog File</a> used by <a href="https://intake-esm.readthedocs.io/">Intake-esm</a>.</p>',
+  buttonLabel: 'Intake-ESM Docs',
   imgStart: false,
   img: data_files,
   alt: 'data',
   dark: false,
   primary: false,
   darkText: true,
-  toURL: 'https://zarr.readthedocs.io/en/stable/',
+  toURL: 'https://intake-esm.readthedocs.io/en/stable/',
 }
 
 export const HomeObjCitation = {

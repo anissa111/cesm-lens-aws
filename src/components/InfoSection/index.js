@@ -43,7 +43,7 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>
-                  <div dangerouslySetInnerHTML={{ __html: description }} />
+                  <span dangerouslySetInnerHTML={{ __html: description }} />
                 </Subtitle>
                 <BtnWrap>
                   <Button

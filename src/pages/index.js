@@ -10,6 +10,7 @@ import {
   HomeObjData,
   HomeObjCitation,
 } from '../components/InfoSection/data'
+import Catalog from '../components/Catalog'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -24,6 +25,7 @@ const Home = () => {
       <InfoSection {...HomeObjOverview}></InfoSection>
       <InfoSection {...HomeObjDataAccess}></InfoSection>
       <InfoSection {...HomeObjData}></InfoSection>
+      <Catalog></Catalog>
       <InfoSection {...HomeObjNotebooks}></InfoSection>
       <InfoSection {...HomeObjCitation}></InfoSection>
     </>
