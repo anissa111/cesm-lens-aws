@@ -33,9 +33,7 @@ const Navbar = ({ toggle }) => {
               <NavLinks to="notebooks">Notebooks</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="data-citation-and-updates">
-                Citation & Updates
-              </NavLinks>
+              <NavLinks to="data-citation">Data Citation</NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>

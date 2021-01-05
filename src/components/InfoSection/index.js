@@ -9,12 +9,12 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  BtnWrap,
+  // BtnWrap,
   Img,
   ImgWrap,
 } from './InfoElements'
 
-import { Button } from '../ButtonElements'
+// import { Button } from '../ButtonElements'
 
 const InfoSection = ({
   lightBg,
@@ -45,13 +45,9 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>
                   <span dangerouslySetInnerHTML={{ __html: description }} />
                 </Subtitle>
-                <BtnWrap>
+                {/* <BtnWrap>
                   <Button
-                    to={toURL}
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
+                    href={toURL}
                     offset={-80}
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
@@ -59,7 +55,7 @@ const InfoSection = ({
                   >
                     {buttonLabel}
                   </Button>
-                </BtnWrap>
+                </BtnWrap> */}
               </TextWrapper>
             </Column1>
             <Column2>

@@ -11,6 +11,7 @@ import {
   HomeObjCitation,
 } from '../components/InfoSection/data'
 import Catalog from '../components/Catalog'
+import Footer from '../components/Footer'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -28,6 +29,7 @@ const Home = () => {
       <Catalog></Catalog>
       <InfoSection {...HomeObjNotebooks}></InfoSection>
       <InfoSection {...HomeObjCitation}></InfoSection>
+      <Footer></Footer>
     </>
   )
 }
