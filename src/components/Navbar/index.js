@@ -42,19 +42,64 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
               <NavItem>
-                <NavLinks to="overview">Overview</NavLinks>
+                <NavLinks
+                  to="overview"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Overview
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="data-access">Data Access</NavLinks>
+                <NavLinks
+                  to="data-access"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={0}
+                >
+                  Data Access
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="data">Data</NavLinks>
+                <NavLinks
+                  to="data"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={0}
+                >
+                  Data
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="notebooks">Notebooks</NavLinks>
+                <NavLinks
+                  to="notebooks"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={0}
+                >
+                  Notebooks
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="data-citation">Data Citation</NavLinks>
+                <NavLinks
+                  to="data-citation"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={0}
+                >
+                  Data Citation
+                </NavLinks>
               </NavItem>
             </NavMenu>
           </NavbarContainer>
