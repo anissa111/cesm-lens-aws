@@ -15,7 +15,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">CESM LENS</NavLogo>
+          <NavLogo to="/">CESM LENS on AWS</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
