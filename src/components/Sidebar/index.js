@@ -28,14 +28,8 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="notebooks" onClick={toggle}>
             Notebooks
           </SidebarLink>
-          <SidebarLink to="known-issues" onClick={toggle}>
-            Known Issues
-          </SidebarLink>
-          <SidebarLink to="data-citation" onClick={toggle}>
-            Data Citation
-          </SidebarLink>
-          <SidebarLink to="updates" onClick={toggle}>
-            Updates
+          <SidebarLink to="data-citation-and-updates" onClick={toggle}>
+            Data Citation & Updates
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>

@@ -50,7 +50,7 @@ export default class Catalog extends Component {
 
   componentDidMount() {
     readRemoteFile(
-      'https://raw.githubusercontent.com/NCAR/cesm-lens-aws/docs-site/intake-catalogs/aws-cesm1-le.csv',
+      'https://raw.githubusercontent.com/NCAR/cesm-lens-aws/master/intake-catalogs/aws-cesm1-le.csv',
       {
         complete: (results) => {
           this.setState({
