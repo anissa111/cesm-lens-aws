@@ -16,16 +16,23 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to="/repo">GitHub Repo</FooterLink>
-              <FooterLink to="/repo">GitHub Repo</FooterLink>
-              <FooterLink to="/repo">GitHub Repo</FooterLink>
+              <FooterLinkTitle>Learn More/Contact Us</FooterLinkTitle>
+              <FooterLink href="https://github.com/NCAR/cesm-lens-aws">
+                GitHub Repo
+              </FooterLink>
+              <FooterLink href="https://ncar.ucar.edu/">NCAR</FooterLink>
+              <FooterLink href="http://www.cesm.ucar.edu/projects/community-projects/LENS/">
+                CESM LENS
+              </FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to="/repo">GitHub Repo</FooterLink>
-              <FooterLink to="/repo">GitHub Repo</FooterLink>
-              <FooterLink to="/repo">GitHub Repo</FooterLink>
+              <FooterLinkTitle>Open Data on AWS</FooterLinkTitle>
+              <FooterLink href="http://aws.amazon.com/opendata/public-datasets">
+                AWS Public Datasets
+              </FooterLink>
+              <FooterLink href="https://registry.opendata.aws/ncar-cesm-lens/">
+                Dataset Entry{' '}
+              </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
