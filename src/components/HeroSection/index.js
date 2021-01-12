@@ -6,7 +6,7 @@ import {
   HeroContent,
   HeroH1,
 } from './HeroElements'
-import Video from '../../Videos/Planet Earth Revolving.mp4'
+import Video from '../../Videos/planet-revolving.mp4'
 
 const HeroSection = () => {
   return (
